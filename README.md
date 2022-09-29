@@ -1,0 +1,1 @@
+# Simego.DataSync.Providers.Sql4Cds
