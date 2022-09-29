@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Simego.DataSync.Providers.Sql4Cds": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Simego\\Data Synchronisation Studio 3.0\\Simego.DataSync.Studio.exe",
+      "commandLineArgs": "-debug"
+    }
+  }
+}

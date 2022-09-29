@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyTitle>Sql4Cds</AssemblyTitle>
+    <Product>Sql4Cds</Product>
+    <Copyright>Copyright © 2022</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Simego.DataSync">
+      <HintPath>..\..\3rdParty\Simego.DataSync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MarkMpn.Sql4Cds.Engine" Version="7.0.0" />
+  </ItemGroup>
+</Project>
