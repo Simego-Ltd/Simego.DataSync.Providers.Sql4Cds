@@ -11,6 +11,7 @@
     <Reference Include="Simego.DataSync">
       <HintPath>..\..\3rdParty\Simego.DataSync.dll</HintPath>
     </Reference>
+    <Reference Include="System.Design" />
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
